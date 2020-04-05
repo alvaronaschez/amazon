@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "env/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.lintOnSave": true,
+    "editor.formatOnSave": true,
+    "python.formatting.autopep8Path": "autopep8",
+    "gitProjectManager.baseProjectsFolders": [
+        "~/Workspace"
+    ],
+}
