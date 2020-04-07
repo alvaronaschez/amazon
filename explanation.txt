@@ -1,0 +1,2 @@
+2) n*m
+1) linear time
