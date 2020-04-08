@@ -2,8 +2,6 @@
 https://www.hackerrank.com/challenges/torque-and-development/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=graphs
 """
 
-from itertools import compress
-
 
 def group_cost(n, c_lib, c_road):
     """
