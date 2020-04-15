@@ -1,0 +1,35 @@
+to do list
+
+leetcode premium
+aws architecture center
+update cv and linkedin profile
+
+refresh depth first search, breadth first search, dynamic programming, knapsack problems
+refresh quicksort, mergesort, heapsort
+implement a hash table from zero using arrays
+trie-trees
+familiarize yourself with at lesast one type of balanced tree (red/black, splay or AVL)
+understand tree traversal
+BFS, DFS, inorder, preorder, postorder
+divide and conquer, greedy algorithms, backtracking, dynamic programming, (branch and bound)
+graphs: objects and pointers, adjacency matrix, adjacency list
+dijkstra, A*
+knapsack problems
+
+
+prepare at least 4 questions, one per interview
+
+distributed computing
+
+conectar todas las historias con el principio 1: CUSTOMER OBSESSION
+
+probar amazon chime con alguien
+
+
+RESUMEN:
+Algoritmos+Estructuras de datos (BASICOS)
+POO
+System Design, AWS Architecture System
+Historias
+Chime
+Update Amazon CV and LinkedIn

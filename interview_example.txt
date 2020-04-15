@@ -1,0 +1,55 @@
+Status: 10 months of experience in a start-up
+Interview dates:
+
+    March 1st week - Online round
+    March 2nd week - Virtual onsite rounds 1,2,3
+    March 4th week - Virtual onsite Bar Raiser
+    April 1st week - Result
+
+Online round :
+Amcat link shared.
+
+    2 coding questions (up to 90 min)
+    Describe your approach with space and time complexity for the 2 questions (up to 15 min)
+    A work style survey (up to 15 min)
+    A feedback survey (5 min)
+
+    Similar to Rotting Oranges
+    Similar to Number of Islands
+
+For virtual onsite following links were shared
+https://livecode.amazon.jobs/
+https://app.chime.aws/meetings/
+
+Virtual onsite round 1
+
+    Tell me about yourself
+    Given 2 employees and 2 functions :
+
+    getManager( employee ) returns immediate manager
+    getTeamMembers( employee ) returns team members
+    Find the Least Common Manager
+
+Virtual onsite round 2
+
+    Tell me about yourself
+    Merge k Sorted Lists
+    Unique paths
+
+Virtual onsite round 3
+
+    45 mins of Leadership Principles questions
+    Similar to Maze
+
+Bar Raiser
+
+    45 mins of Leadership Principles questions
+    Longest Substring Without Repeating Characters
+
+Some of the LP questions
+Time when you disagreed with manager
+Time when you were not satisfied with your work
+A suggestion you gave in your organisation
+Time when you did something beyond your work
+Time when you were 75% of the way through a project, and you had to pivot strategy — did you suceed or fail
+Time when you had a complex problem, how did you solve it

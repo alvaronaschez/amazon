@@ -20,4 +20,5 @@
     "python.testing.unittestEnabled": true,
     "python.testing.autoTestDiscoverOnSaveEnabled": true,
     "python.experiments.enabled": false,
+    "markdown.extension.preview.autoShowPreviewToSide": false,
 }
