@@ -1,10 +1,16 @@
 {
     "python.pythonPath": "env/bin/python",
     "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
     "python.linting.lintOnSave": true,
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfArgs": [
+        "--style",
+        "{based_on_style: pep8}",
+        //Four styles are predefined: pep8 (default), google, yapf, and facebook
+    ],
     "editor.formatOnSave": true,
-    "python.formatting.autopep8Path": "autopep8",
     "gitProjectManager.baseProjectsFolders": [
         "~/Workspace"
     ],

@@ -1,9 +1,11 @@
 """
 https://leetcode.com/explore/interview/card/amazon/76/array-and-strings/508/
 
-Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+Given an array of integers, return indices of the two numbers such that they
+add up to a specific target.
 
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
+You may assume that each input would have exactly one solution, and you may
+not use the same element twice.
 
 Example:
 
@@ -20,23 +22,23 @@ class Solution:
     """
     tiempo invertido en el ejercicio: 9'48''
     """
-
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        nums = sorted(zip(nums, range(len(nums))))
-        i, j = 0, -1
-        while True:
-            s = nums[i][0]+nums[j][0]
+        nums = sorted(nums)
+        i, j = 0, len(nums) - 1
+        while i < j:
+            s = nums[i] + nums[j]
             if s == target:
-                return [nums[i][1], nums[j][1]]
-            if s < target:
+                return [i, j]
+            elif s < target:
                 i += 1
             else:
                 j -= 1
+        return None
 
 
 class TestTwoSum(unittest.TestCase):
     def test_two_sum(self):
-        expected_result = [0, 2]
+        expected_result = [0, 1]
         result = Solution().twoSum([2, 11, 7, 15], 9)
         self.assertEquals(result, expected_result)
 
