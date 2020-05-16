@@ -15,8 +15,14 @@
     //"python.formatting.provider": "black",
     //"python.formatting.blackPath": "black",
     //"python.formatting.yapfPath": "yapf",
+    "python.formatting.autopep8Args": [
+        "--aggressive"
+    ],
     //Four styles are predefined: pep8 (default), google, yapf, and facebook
-    //"python.formatting.yapfArgs": ["--style","{based_on_style: facebook}",],
+    "python.formatting.yapfArgs": [
+        "--style",
+        "{based_on_style: pep8, indent_width: 4,}",
+    ],
     //"python.formatting.blackArgs": ["--line-length","80"],
     "python.testing.unittestArgs": [
         "-v",
