@@ -25,3 +25,16 @@ const deleteDuplicates = function (head) {
     }
     return head;
 };
+
+// alternative solution
+const deleteDuplicates2 = function (head) {
+    let s = new Set();
+    for (; head; head = head.next) {
+        s.add(head.val);
+    }
+    head = null;
+    for (let e of Array.from(s).sort((x, y) => x - y).reverse()) {
+        head = new ListNode(e, head);
+    }
+    return head;
+};
