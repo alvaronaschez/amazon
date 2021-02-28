@@ -39,4 +39,4 @@
  * @param {string} s
  * @return {number}
  */
-const lengthOfLastWord = s => s.trim().split(' ').slice(-1)[0].length
+const lengthOfLastWord = s => s.trim().split(' ').slice(-1)[0].length;
