@@ -3,5 +3,6 @@
     "difficulty": "Medium",
     "number": 31,
     "id": "next-permutation",
+    "topics": ["Array"],
     "description": "Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.\n\nIf such an arrangement is not possible, it must rearrange it as the lowest possible order (i.e., sorted in ascending order).\n\nThe replacement must be in place and use only constant extra memory.\n\n \n\nExample 1:\n\nInput: nums = [1,2,3]\nOutput: [1,3,2]\nExample 2:\n\nInput: nums = [3,2,1]\nOutput: [1,2,3]\nExample 3:\n\nInput: nums = [1,1,5]\nOutput: [1,5,1]\nExample 4:\n\nInput: nums = [1]\nOutput: [1]\n \n\nConstraints:\n\n1 <= nums.length <= 100\n0 <= nums[i] <= 100\n"
 }
